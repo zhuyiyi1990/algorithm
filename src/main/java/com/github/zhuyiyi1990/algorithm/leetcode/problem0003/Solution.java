@@ -1,8 +1,10 @@
-package com.github.zhuyiyi1990.algorithm.leetcode.problem3;
+package com.github.zhuyiyi1990.algorithm.leetcode.problem0003;
 
 import java.util.Arrays;
 
-class Solution {
+//https://leetcode.com/problems/longest-substring-without-repeating-characters/
+public class Solution {
+
     public int lengthOfLongestSubstring(String s) {
         char[] chars = s.toCharArray();
         int l = 0;
@@ -30,9 +32,6 @@ class Solution {
         }
         return maxLength;
     }
-}
-
-public class MyMain {
 
     public static void main(String[] args) {
         System.out.println(new Solution().lengthOfLongestSubstring("abcabcbb"));

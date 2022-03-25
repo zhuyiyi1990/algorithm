@@ -1,4 +1,4 @@
-package com.github.zhuyiyi1990.algorithm.reflect;
+package com.github.zhuyiyi1990.algorithm.other.reflect;
 
 public class MyTest {
 

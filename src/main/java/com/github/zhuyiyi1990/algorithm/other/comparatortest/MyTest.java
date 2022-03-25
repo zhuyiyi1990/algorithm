@@ -1,4 +1,4 @@
-package com.github.zhuyiyi1990.algorithm.comparatortest;
+package com.github.zhuyiyi1990.algorithm.other.comparatortest;
 
 import java.util.TreeSet;
 

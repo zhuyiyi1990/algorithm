@@ -1,26 +1,7 @@
-package com.github.zhuyiyi1990.algorithm.leetcode;
+package com.github.zhuyiyi1990.algorithm.leetcode.problem0002;
 
-public class ListNode {
-
-    int val;
-
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-}
-
-class Solution {
+//https://leetcode.com/problems/add-two-numbers/
+public class Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode current1 = l1;

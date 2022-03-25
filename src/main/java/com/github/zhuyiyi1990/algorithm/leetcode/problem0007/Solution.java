@@ -1,6 +1,8 @@
-package com.github.zhuyiyi1990.algorithm.leetcode.reverseinteger;
+package com.github.zhuyiyi1990.algorithm.leetcode.problem0007;
 
-class Solution {
+//https://leetcode.com/problems/reverse-integer/
+public class Solution {
+
     public int reverse(int x) {
         int result = 0;
         long temp = 0;
@@ -15,12 +17,9 @@ class Solution {
         }
         return result;
     }
-}
-
-public class MyTest {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().reverse(1534236469));
+        System.out.println(new Solution().reverse(-123));
     }
 
 }
