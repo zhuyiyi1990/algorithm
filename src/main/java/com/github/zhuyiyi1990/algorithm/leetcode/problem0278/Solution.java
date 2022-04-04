@@ -1,5 +1,6 @@
 package com.github.zhuyiyi1990.algorithm.leetcode.problem0278;
 
+//https://leetcode.com/problems/first-bad-version/
 public class Solution extends VersionControl {
 
     public Solution(int firstBadVersion) {

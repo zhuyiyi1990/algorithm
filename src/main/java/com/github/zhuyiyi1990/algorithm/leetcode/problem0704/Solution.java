@@ -1,5 +1,6 @@
 package com.github.zhuyiyi1990.algorithm.leetcode.problem0704;
 
+//https://leetcode.com/problems/binary-search/
 public class Solution {
 
     public int search(int[] nums, int target) {
