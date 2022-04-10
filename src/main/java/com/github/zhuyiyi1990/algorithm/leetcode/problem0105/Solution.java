@@ -6,7 +6,8 @@ import java.util.HashMap;
 public class Solution {
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        return buildTree1(preorder, inorder);
+//        return buildTree1(preorder, inorder);
+        return buildTree2(preorder, inorder);
     }
 
     public TreeNode buildTree1(int[] preorder, int[] inorder) {
