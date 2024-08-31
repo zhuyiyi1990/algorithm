@@ -29,6 +29,7 @@ public class Ranking {
     public Map<String, List<String>> clubRankingMap;
 
     public Ranking() {
+        // 英超永远放第一个
         associationRankingList = new ArrayList<>();
         associationRankingList.add(PREMIER_LEAGUE);
         associationRankingList.add(SERIE_A);
