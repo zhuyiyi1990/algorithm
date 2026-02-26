@@ -1,6 +1,6 @@
 package com.github.zhuyiyi1990.algorithm.lottery;
 
-public class MyMain {
+public class LotteryMain {
 
     public static void main(String[] args) {
         final int COUNT = 5;
